@@ -5,7 +5,7 @@ const {
     GoogleAuth
 } = require('google-auth-library');
 
-const PROJECT_ID = 'macgyver-services-production';
+const PROJECT_ID = 'noerskov-net';
 const PROJECT_NAME = `projects/${PROJECT_ID}`;
 const billing = google.cloudbilling('v1').projects;
 
